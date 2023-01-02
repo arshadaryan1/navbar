@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+
+  <div id="nav-main">
+    <nav id="navx" class="margin-nav">
+
+      <div id="logo-div" class="navbar">
+
+        <img id="logo" src="/logo.png" alt="">
+      </div>
+
+
+      <div id="navbar" class="navbar-main">
+
+
+        <a id="signup" href="javascript:void(0)">Sign Up</a>
+        <a class="normal" href="javascript:void(0)">Login</a>
+        <a class="normal" href="javascript:void(0)">Courses</a>
+        <a class="normal" href="javascript:void(0)">Notes</a>
+        <a class="normal" href="javascript:void(0)">Home</a>
+
+
+
+      </div>
+    </nav>
+  </div>
+  <!-- ===========================for toggle================================== -->
+  <!-- Simulate a smartphone / tablet -->
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">Logo</a>
+      <div id="myLinks">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- ========================end here========================= -->
+    <div class="content hero-section">
+      <h3>Sticky Navigation ExamplE1</h3>
+      <h3>Sticky Navigation Exampl2</h3>
+      <h3>Sticky Naviga Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ab quod a quos ullam assumenda
+        similique, neque minima sunt magnam ut, mollitia et laboriosam commodi maiores, numquam perferendis doloribus
+        culpa non? Ducimus soluta nobis minima ipsa tempora eius magnam nesciunt officia dignissimos illo molestias,
+        excepturi temporibus placeat cumque. Optio, veritatis. tion Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+      <h3>Sticky Navigation Example</h3>
+
+    </div>
+
+    <script>
+      window.onscroll = function () { myFunction() };
+
+      var navbar = document.getElementById("navx");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+</body>
+
+</html>

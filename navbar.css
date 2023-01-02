@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-size: 24px;
+  font-family: "Gilroy";
+}
+
+#navbar {
+  width: 80%;
+
+  margin-right: 14.6%;
+  overflow: hidden;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+
+  margin-top: 2%;
+
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24.8px;
+  color: rgb(26, 41, 48);
+}
+
+#navx {
+  display: flex;
+  width: 80%;
+}
+
+#logo {
+  width: 65px;
+  padding: 20px 0 10px 20px;
+  cursor: pointer;
+}
+
+#logo-div {
+  margin-left: 11.9%;
+}
+
+#navbar .normal:hover {
+  background-color: rgb(172, 166, 166);
+  color: rgb(255, 254, 254);
+  border-radius: 100px 40px 50px 5px;
+}
+
+.content {
+  padding: 16px;
+  margin-top: 8%;
+  width: 73.5%;
+  margin: auto;
+}
+
+#signup {
+  background-color: rgb(92, 92, 232);
+  border-radius: 5px 30px;
+}
+
+#navbar #signup:hover {
+  background-color: rgb(185, 47, 47);
+  color: rgb(240, 238, 238);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#navx {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 1px rgb(236, 231, 231);
+}
+
+/* =====for toggle======= */
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
